@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise-4</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pattaya&family=Yaldevi&display=swap"
+      rel="stylesheet"
+      <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap"
+      rel="stylesheet"
+      <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: #110f57;
+      }
+      li {
+        padding: 5px;
+        display: inline-block;
+        border-radius: 100%;
+      }
+      .radius {
+        width: 70px;
+        height: 70px;
+        background-color: white;
+        border-radius: 100%;
+      }
+      li img:hover:not(.active) {
+        background-color: transparent;
+      }
+      .active {
+        background-color: #04aa6d;
+      }
+      h1 {
+        font-family: Vollkorn, serif;
+      }
+    </style>
+  </head>
+  <body>
+    <!--div-Whole layout -->
+    <div style="position: relative">
+      <!-- Parent div with 4 childrens -->
+      <div
+        style="
+          height: 1200px;
+          width: 900px;
+          margin-left: 60px;
+          margin-top: 72px;
+        "
+      >
+        <!-- studio -->
+        <div>
+          <p style="font-size: 45px; color: white">
+            <strong style="font-family: Yaldevi, sans-serif; padding-right: 2px"
+              >STU</strong
+            ><img style="width: 40px" src="/Asset/logo.png" alt="logo" /><strong
+              style="font-family: Yaldevi, sans-serif"
+              >IOS</strong
+            >
+            <span style="font-family: Pattaya, sans-serif; color: #00fb82"
+              >9</span
+            >
+          </p>
+        </div>
+        <!-- writing -->
+        <div style="margin-top: 60px; color: #00fb82; font-size: 90px">
+          <h1>Work</h1>
+          <h1>Together</h1>
+        </div>
+        <!-- lorem-paragraph -->
+        <div
+          style="
+            text-align: justify;
+            margin-top: 30px;
+            width: 750px;
+            height: 360px;
+            font-size: 30px;
+            font-family: Lato, Sans-serif;
+            color: #e2e2e2b2;
+          "
+        >
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quia
+            labore quidem autem cupiditate aliquid omnis aperiam eligendi
+            explicabo quaerat iure ea commodi, nihil odio cumque voluptatem
+            perferendis totam ratione architecto? Consectetur beatae nam,
+            eveniet nisi ab corrupti, maxime vel autem laborum alias vero
+            aperiam, quod dolores ipsa architecto rerum quisquam? Temporibus
+            ipsam reiciendis suscipit quia omnis ex corrupti eos modi! Sequi
+            debitis magni dignissimos minus ea quo sit tenetur inventore totam
+            quod. Dolore esse ipsum dolorum, dolorem optio voluptas?
+          </p>
+        </div>
+        <!-- menu-bar -->
+        <div style="margin-top: 90px">
+          <ul>
+            <li class="radius" style="position: relative">
+              <a href="http://www.google.com"
+                ><img
+                  style="
+                    background-color: #110f57;
+                    position: absolute;
+                    border-radius: 100%;
+                    top: 10px;
+                    left: 10px;
+                  "
+                  src="/Asset/icon-google.png"
+                  alt="google-icon"
+              /></a>
+            </li>
+            <li class="radius" style="position: relative">
+              <a href="http://wwww.facebook.com"
+                ><img
+                  style="
+                    width: 50px;
+                    background-color: #110f57;
+                    position: absolute;
+                    border-radius: 100%;
+                    top: 10px;
+                    left: 10px;
+                  "
+                  src="/Asset/icon-facebook.png"
+                  alt="facebook-icon"
+              /></a>
+            </li>
+            <li class="radius" style="position: relative">
+              <a href="http://www.twitter.com"
+                ><img
+                  style="
+                    width: 50px;
+                    background-color: #110f57;
+                    position: absolute;
+                    border-radius: 100%;
+                    top: 10px;
+                    left: 10px;
+                  "
+                  src="/Asset/icon-twitter.png"
+                  alt="twitter-icon"
+              /></a>
+            </li>
+            <li class="radius" style="position: relative">
+              <a href="http://linkedin.com"
+                ><img
+                  style="
+                    width: 50px;
+                    background-color: #110f57;
+                    position: absolute;
+                    border-radius: 100%;
+                    top: 10px;
+                    left: 10px;
+                  "
+                  src="/Asset/icon-linkedin.png"
+                  alt="linkedin-icon"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--div for vertical bar -->
+      <div style="position: absolute; right: 200px; top: -100px">
+        <div
+          style="
+            display: inline-block;
+            background-color: #00fb82;
+            width: 40px;
+            height: 150px;
+            border-radius: 0 0 18px 18px;
+            margin-left: 10px;
+            margin-bottom: 200px;
+          "
+        ></div>
+        <div
+          style="
+            display: inline-block;
+            background-color: #fff500;
+            width: 40px;
+            height: 230px;
+            margin-bottom: 120px;
+            border-radius: 0 0 18px 18px;
+            margin-left: 50px;
+          "
+        ></div>
+        <div
+          style="
+            display: inline-block;
+            background-color: #00fb82;
+            width: 40px;
+            height: 350px;
+            border-radius: 0 0 18px 18px;
+            margin-left: 50px;
+          "
+        ></div>
+        <div
+          style="
+            display: inline-block;
+            background-color: #fff500;
+            width: 40px;
+            height: 290px;
+            border-radius: 0 0 18px 18px;
+            margin-left: 50px;
+            margin-bottom: 60px;
+          "
+        ></div>
+      </div>
+      <!-- div for right-ellipse -->
+      <div style="position: absolute; bottom: 800px; right: 0">
+        <img
+          style="height: 400px"
+          src="/Asset/right-ellipse.png"
+          alt="right-ellipse"
+        />
+      </div>
+      <!-- div for left-ellipse -->
+      <div
+        style="
+          margin-top: 0;
+          width: 700px;
+          height: 500px;
+          position: absolute;
+          bottom: 100px;
+          left: 10px;
+        "
+      >
+        <img
+          style="
+            position: absolute;
+            z-index: 2;
+            height: 63px;
+            left: 440px;
+            bottom: 445px;
+          "
+          src="/Asset/single -ellipse.png"
+          alt=""
+        />
+        <img
+          style="height: 400px; z-index: 1"
+          src="/Asset/left-ellipse.png"
+          alt="left-ellipse"
+        />
+      </div>
+      <!-- div for image -->
+      <div>
+        <img
+          style="bottom: 0; width: 100%"
+          src="/Asset/chitchat.png"
+          alt="discussion"
+        />
+      </div>
+    </div>
+  </body>
+</html>
