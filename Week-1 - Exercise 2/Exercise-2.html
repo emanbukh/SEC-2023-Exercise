@@ -1,0 +1,108 @@
+<!-- Create a landing page, 1 large parent block, 10 child block with different property, insert image -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise-1</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      /* parent will have size of an A4 paper */
+      .largebox {
+        width: 100%;
+        height: 1025px;
+        background-color: white;
+        position: relative;
+      }
+      .rect1 {
+        height: 329px;
+        width: 100%;
+        background-color: #c4c4c4;
+        position: relative;
+        text-align: center;
+        line-height: 329px;
+      }
+      .rect2 {
+        height: 199px;
+        width: 341px;
+        background-color: #c4c4c4;
+        position: relative;
+      }
+      .menu ul {
+        display: inline-flex;
+        margin: 50px;
+      }
+      .menu ul li {
+        list-style: none;
+        margin: 0 20px;
+        color: black;
+        cursor: pointer;
+      }
+      .logo {
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: #c4c4c4;
+        text-align: center;
+        line-height: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="largebox">
+      <div class="menu">
+        <ul>
+          <li class="logo">LOGO</li>
+          <li style="padding-left: 450px">HOME</li>
+          <li>ABOUT</li>
+          <li>DESTINATIONS</li>
+          <li>GALLERY</li>
+          <li style="padding-left: 70px">
+            <img src="/image/magnifying glass.png" alt="search-logo" />
+          </li>
+        </ul>
+      </div>
+      <div class="rect1" style="margin-bottom: 30px">Master Slider</div>
+      <table style="margin-left: 25%; padding-left: 50px; padding-bottom: 30px">
+        <tr>
+          <td>
+            <div class="rect2"></div>
+          </td>
+          <td style="padding-left: 50px">
+            <p style="width: 300px; text-align: justify">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+              omnis architecto placeat dolorem consequuntur possimus sunt
+              accusamus neque repellendus obcaecati fuga dignissimos deleniti,
+              iusto veniam dolor at natus tempore quae! Ullam veritatis, at
+              ducimus obcaecati maxime alias voluptatibus sapiente nesciunt
+              adipisci minima ab quos doloribus id similique, molestiae magni
+              nobis neque quisquam quidem? Mollitia, autem aut. In totam ab cum!
+            </p>
+          </td>
+        </tr>
+      </table>
+      <table style="margin-left: 25%; padding-left: 50px; padding-bottom: 30px">
+        <tr>
+          <td>
+            <p style="width: 300px; text-align: justify">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              eaque similique, qui esse voluptate sunt architecto enim natus ex,
+              exercitationem minima minus corporis ratione cupiditate sit
+              deserunt illum quaerat vel harum quibusdam maxime. Magni repellat
+              dolore rerum, nobis libero neque sit facilis ea laborum fugiat
+              dicta voluptates, ut blanditiis officia! Impedit, doloremque eum
+              vitae accusamus sed laboriosam in quia sunt.
+            </p>
+          </td>
+          <td style="padding-left: 50px">
+            <div class="rect2"></div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
