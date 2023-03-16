@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+button,
+a {
+  all: unset;
+}
+html,
+body {
+  width: 100vw;
+  min-height: 100vh;
+  height: auto;
+}
+section {
+  max-width: 1440px;
+  margin: 0 auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+.left {
+  width: 50%;
+}
+.right {
+  width: 50%;
+}
+#hero .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#hero .left h2 {
+  font-size: 100rem;
+}
+#hero .right {
+  position: relative;
+}
