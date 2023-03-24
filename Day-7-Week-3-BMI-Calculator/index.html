@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">BMI Calculator</h1>
+      <form>
+        <div class="form-group">
+          <label for="weight">Weight (kg)</label>
+          <input
+            id="weight"
+            type="number"
+            step="0.01"
+            placeholder="Enter your weight"
+          /><br/><span id="weight_error"></span>
+        </div>
+        <div class="form-group">
+          <label for="height">Height (m)</label>
+          <input
+            id="height"
+            type="number"
+            step="0.01"
+            placeholder="Enter your height"
+          /><br /><span id="height_error"></span>
+        </div>
+        <button id="calculateBtn">Calculate BMI</button>
+      </form>
+      <p id="bmiAdvice"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!-- key point to discover -->
+<!-- 1. input value, 2. onChange, onClick eventlistener, multiple conditioning, &&, || -->
