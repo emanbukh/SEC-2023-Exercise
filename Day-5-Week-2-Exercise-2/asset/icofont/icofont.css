@@ -38,6 +38,11 @@ url("./fonts/icofont.woff") format("woff");
   content: "\ea94";
 }
 
+.icofont-long-arrow-down:before
+{
+  content: "\ea92";
+}
+
 .icofont-xs
 {
   font-size: .5em;
