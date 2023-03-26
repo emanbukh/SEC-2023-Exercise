@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+button,
+a {
+  all: unset;
+}
+body {
+  height: auto;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+
+section {
+  width: 1200px;
+  height: 600px;
+}
+h1 {
+  font-size: 3rem;
+}
+h4 {
+  font-size: 1rem;
+}
+h6 {
+  font-size: 0.8rem;
+  font-weight: 200;
+}
+#hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.rowCenter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.gap {
+  gap: 30px;
+}
+.justifyStart {
+  display: flex;
+  justify-content: start;
+}
+.justifyEnd {
+  display: flex;
+  justify-content: end;
+}
+.splitBetw {
+  display: flex;
+  justify-content: space-between;
+}
+.noneList {
+  list-style: none;
+}
+#head-1 {
+  width: 80%;
+  height: auto;
+  margin: 15px 0;
+}
+#body-1 {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+}
+#body-1 h1 {
+  margin-right: 40px;
+  padding-bottom: 20px;
+}
+#body-1 p {
+  font-size: 1.1rem;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+#body-1 img {
+  width: 70%;
+  height: auto;
+}
+.margin50 {
+  margin: 0 50%;
+  transform: translate(-50%);
+}
+.circle {
+  width: 30%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  border-radius: 6px;
+  background-color: #8eadd5;
+  color: #ffffff;
+}
+.small {
+  font-size: 1rem;
+}
+#foot-1 {
+  width: 70%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+#logoAtFoot {
+  margin: 10px;
+  padding: 10px 40px 10px 40px;
+  background-color: #f6f6f6;
+  display: flex;
+  align-items: center;
+}
+.widthHalf {
+  width: 50%;
+  height: auto;
+}
+#hamburger {
+  display: none;
+}
+
+@media (max-width: 960px) {
+  section {
+    width: 400px;
+    height: auto;
+  }
+  #head-1 div ul#ul-1 {
+    display: none;
+  }
+
+  #hamburger {
+    display: block;
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+  }
+  #body-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #body-1 h1 {
+    font-size: 2rem;
+    margin: 0;
+    text-align: center;
+  }
+  #body-1 p {
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin: 0;
+    text-align: center;
+  }
+  .widthHalf {
+    width: 100%;
+  }
+  .circle {
+    margin: 0 50% 10% 50%;
+    transform: translate(-50%);
+  }
+  .small {
+    font-size: 0.7rem;
+  }
+  #body-1 img {
+    width: 100%;
+  }
+  #foot-1 {
+    width: 100%;
+  }
+  #foot-1 img {
+    width: 70px;
+  }
+}
