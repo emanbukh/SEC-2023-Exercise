@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <title>KeyCode Finder</title>
+  </head>
+  <body>
+    <header>
+      <h1>KeyCode Finder</h1>
+    </header>
+    <div>
+      <main>
+        <div class="top-area-container">
+          <p class="top-area-keycode" id="input"></p>
+          <h1 id="keycode"></h1>
+          <h2>Key Code Information</h2>
+        </div>
+        <div role="group" class="organize-row">
+          <div class="content-container">
+            <div class="head-container"><h3>event.key</h3></div>
+            <div id="e-key" class="eventinfo"></div>
+            <div>
+              <div class="small-font">
+                The value of the key pressed. Accounts for modifiers keys that
+                return CAPS and alternate chars.
+              </div>
+            </div>
+          </div>
+          <div class="content-container">
+            <div class="head-container"><h3>event.location</h3></div>
+            <div id="e-location" class="eventinfo"></div>
+            <div>
+              <div class="small-font">
+                Some keys exist more than once on your keyboard. This provides
+                the location of the key pressed. Try it with both shifts.
+              </div>
+            </div>
+          </div>
+          <div class="content-container">
+            <div class="head-container"><h3>event.code</h3></div>
+            <div id="e-code" class="eventinfo"></div>
+            <div>
+              <div class="small-font">
+                The physical key on the keyboard. Doesn't care if you are
+                holding a modifier like Shift.
+              </div>
+            </div>
+          </div>
+          <div class="content-container">
+            <div class="head-container"><h3>event.which</h3></div>
+            <div id="e-which" class="eventinfo"></div>
+            <div>
+              <div class="small-font">
+                event.which and event.keyCode are deprecated in modern browsers.
+                Use .key or .code instead.
+              </div>
+            </div>
+          </div>
+          <div class="content-container">
+            <div class="head-container"><h3>Event Dump</h3></div>
+            <div class="eventinfo"><span id="e-dump"></span></div>
+            <div>
+              <div></div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
