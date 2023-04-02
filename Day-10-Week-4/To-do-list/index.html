@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Option 1: Include in HTML -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>To-do-list</title>
+  </head>
+  <body>
+    <h1>My Daily Targets</h1>
+    <div>
+      <input
+        type="text"
+        id="inputChild"
+        placeholder="What do you want to do today?"
+      />
+      <input type="checkbox" name="" id="importantCheckbox" /><span
+        id="spanCheckbox"
+        >Important</span
+      >
+      <button id="btnSubmit">New task</button>
+    </div>
+    <div id="stylingOl">
+      <ol id="listBasket"></ol>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
