@@ -1,15 +1,14 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./pages/Home";
 import Job from "./pages/Job";
-import { HOMEURL } from "./constant/config";
 import "./App.css";
 function App() {
   const router = createBrowserRouter([
     {
-      path: HOMEURL,
+      path: "/SEC-2023-Exercise/React-js",
       element: <Home />,
     },
-    { path: HOMEURL + "/job/:id", element: <Job /> },
+    { path: "/job/:id", element: <Job /> },
   ]);
   return <RouterProvider router={router} />;
 }

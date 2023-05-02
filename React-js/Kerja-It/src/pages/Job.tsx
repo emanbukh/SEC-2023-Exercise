@@ -24,7 +24,7 @@ function Job(props:any) {
   // Single Job Page -id {param.id}
   return (
     <div>
-      <div><Header/><Subheader/><p>Jobs /jhkjh 
+      <div><Header/><Subheader/><p>Jobs
         </p></div>
     </div>
   );
