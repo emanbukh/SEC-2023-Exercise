@@ -4,6 +4,7 @@ import nav from "../assets/maps-and-flags.png";
 import newSticker from "../assets/new-product.png";
 import Stack from "../components/Stack";
 import { useNavigate } from "react-router-dom";
+import { BASEURL } from "../constant/config";
 
 function JobCard(props: any) {
   // function to detect if the year is 2023
@@ -17,7 +18,7 @@ function JobCard(props: any) {
     <div
       className="w-[428px] h-[219.6px] font-mono text-sm rounded-md bg-white border-solid border-2 border-gray-300 cursor-pointer"
       onClick={() => {
-        navigate(`/job/${props.job.id}`);
+        navigate(`${BASEURL}/job/${props.job.id}`);
       }}
     >
       <div className="p-3">
