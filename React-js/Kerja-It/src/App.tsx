@@ -5,7 +5,7 @@ import "./App.css";
 function App() {
   const router = createBrowserRouter([
     {
-      path: "/SEC-2023-Exercise/React-js/Kerja-It",
+      path: "/SEC-2023-Exercise/React-js/Kerja-It/",
       element: <Home />,
     },
     { path: "/job/:id", element: <Job /> },
