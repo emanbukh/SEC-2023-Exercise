@@ -32,6 +32,11 @@ function JobCard(props: any) {
               alt="calendar-icon"
             />
             <p className="mx-2 inline-block">{props.job.post_date}</p>
+            {isNew ? (
+                <span className="bg-green-300 inline-block px-1 text-sm text-gray-700 ml-2 rounded-sm">
+                  New
+                </span>
+              ) : null}
           </li>
           <li>
             <img className="w-4 inline-block" src={nav} alt="nav-icon" />
